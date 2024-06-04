@@ -1,0 +1,451 @@
+body  {
+  font-family: "Marydale-Bold", "Marydale";
+  margin: 0;
+  overflow-x: hidden;
+}
+.text__74{
+  width: 35vw;
+  top: 45vw;
+  left: 8vw;
+}
+.blue-bckg__text > p,
+.footer__white-content,
+.star,
+.qr__logo,
+.curved-text-container,
+.car,
+.cloud,
+.earth__patch-text,
+.person,
+.curved__text,
+.footer__wrap,
+.text__74{
+  z-index: 9;
+  position: absolute;
+}
+
+.layout__wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  border: 3px solid black;
+  width: 97vw;
+  height: 132.7vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+} 
+
+.car{
+  width: 16vw;
+  left: 45vw;
+  top: 36vw;
+}
+
+.background{
+  position: absolute;
+  width: 100%;
+}
+
+.background__image--white{
+  z-index: 2;
+}
+
+header {
+  font: 900 4.7vw Arial, Helvetica, sans-serif;
+  color: #035ca7;
+  z-index: 5;
+  position: absolute;
+  left: 6%;
+  top: 6vw;
+}
+
+header:hover {
+  color: #028a67;
+}
+
+header span {
+  color: #0da15c;
+}
+
+header p {
+  position: absolute;
+  top: -0.2vw;
+}
+
+.header__undertext {
+  color: #231f20;
+  font-size: 2vw;
+  font-family: "Marydale-Bold", "Marydale";
+  position: absolute;
+  width: 20ch;
+  top: 8vw;
+}
+
+.background__image--blue {
+  z-index: 1;
+  top: 6vw;
+}
+
+.star{
+  width: 6vw;
+}
+
+.star__small{
+  right: 3.5vw;
+  top: 20vw;
+}
+
+.star__large{
+  right: 8vw;
+  top: 14vw;
+}
+
+.blue-bckg__text > p {
+  color: #fff;
+  font-size: 1.8vw;
+  font-weight: bolder;
+  margin-left: 5vw;
+}
+
+.blue-bckg__text-content{
+  top: 26.9vw;
+}
+
+.blue-bckg__text-content--underneath{
+  top: 29vw;
+}
+
+.background__image--transperantBlue{
+  top: 30vw;
+}
+
+.cloud__small{
+  width: 4.1vw;
+}
+
+#cloud1{
+  top: 66vw;
+  left: 6vw;
+}
+
+#cloud2{
+  top: 63vw;
+  left: 20vw;
+}
+
+#cloud3{
+  top: 67vw;
+  left: 29vw;
+}
+
+#cloud4{
+  top: 59vw;
+  left: 33.5vw;
+}
+
+#cloud5{
+  top: 55vw;
+  left: 42vw;
+}
+
+#cloud6{
+  top: 57.6vw;
+  left: 70vw;
+}
+
+#cloud7{
+  top: 54vw;
+  left: 79vw;
+}
+
+#cloud8{
+  top: 65vw;
+  left: 79vw;
+}
+
+.cloud--big{
+  width: 10vw;
+  top: 53vw;
+  left: 55vw;
+}
+
+.cloud--medium1{
+  width: 6.4vw;
+  top: 56vw;
+  left: 25vw;
+}
+
+.cloud--medium2{
+  width: 6.4vw;
+  left: 71vw;
+  top: 48vw;
+}
+
+.background__image--orange {
+  top: 72vw;
+}
+
+.background__image--earth{
+  top: 80vw;
+}
+
+.earth__bckg-patches{
+  top: 80vw;
+  width: 98.5vw;
+  position: absolute;
+}
+
+.eyeball{
+  position: absolute;
+}
+
+.eyes__black{
+  top: 113vw;
+  width: 60vw;
+  left: 14vw;
+}
+
+.eyeball--left{
+  width: 8vw;
+  top: 114vw;
+  left: 21vw;
+  animation: eyeMovement 4s infinite;
+}
+
+.eyeball--right{
+  width: 7.5vw;
+  top: 114vw;
+  left: 66vw;
+  animation: eyeMovement 4s infinite;
+}
+
+@keyframes eyeMovement {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.earth__patch-text{
+  font-weight: bold;
+  font-family: "Marydale-Bold", "Marydale";
+  font-size: 1.5vw;
+  line-height: 2.4vw;
+}
+
+#patch__text--middle{
+  top: 97vw;
+  left: 29vw;
+  font-size: 6vw;
+}
+
+#patch__text1{
+  top: 95vw;
+  left: 2.5vw;
+}
+
+#patch__text2{
+  top: 85vw;
+  right: 22vw;
+}
+
+#patch__text3{
+  top: 111.5vw;
+  left: 37.4vw;
+}
+
+#patch__text4{
+  top: 87vw;
+  right: 5vw;
+}
+
+#patch__text5{
+  top: 115vw;
+  right: 4vw;
+}
+
+.person{
+  max-width: 21vw;
+}
+
+#person--blue{
+  left: 38vw;
+  top: 60vw;
+  max-width: 18vw;
+}
+
+#person--green{
+  left: 59vw;
+  top: 59vw;
+}
+
+#person--yellow{
+  left: 7vw;
+  top: 67vw;
+}
+
+.footer__bckg{
+  top: 124vw;
+}
+
+.footer__wrap{
+  font-size: 1.7vw;
+  font-family: "Marydale-Bold", "Marydale";
+  color: #fff;
+}
+
+.footer__link-text{
+  top: 125.4vw;
+  left: 58vw;
+}
+
+.footer__link {
+  top: 128vw;
+  left: 39vw;
+  width: 80%;
+  font-size: 1.2vw;
+}
+
+.footer__contact {
+  top: 126.4vw;
+  right: 3vw;
+}
+
+.footer__white-content{
+  font-size: 1.25vw;
+  font-family: "Marydale-Bold", "Marydale";
+}
+
+.footer__white-text{
+  top: 122.5vw;
+  left: -4vw;
+}
+
+.footer__white-text2{
+  top: 124vw;
+  left: -3vw;
+}
+
+.qr__logo{
+  max-width: 10%;
+  top: 112vw;
+  left: 2vw;
+  transition: transform 0.3s ease;
+}
+
+.qr__logo:hover{
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-15px);
+  } 
+  60%{
+    transform: translateY(-10px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .car{
+    left: 43vw;
+    top: 37vw;
+  }
+
+  .header__undertext {
+    font-size: 2.3vw;
+    width: 20ch;
+  }
+
+  .footer__link-text,
+  .footer__link,
+  .footer__contact{
+    font-size: 1.8vw;
+  }
+
+  .footer__link {
+    width: 37%;
+    font-size: 1.2vw;
+  }
+
+  .blue-bckg__text > p {
+    font-size: 2.1vw;
+  }
+
+  .footer__white-content{
+    font-size: 1.3vw;
+  }
+
+  .earth__bckg-patches{
+    width: 94vw;
+    left: 3vw;
+  }
+  .earth__patch-text{
+    font-size: 1.8vw;
+  }
+
+  #patch__text2{
+    right: 14.8vw;
+  }
+  #patch__text3{
+    font-size: 1.8vw;
+  }
+
+  .person{
+    max-width: 21vw;
+  }
+
+  #person--yellow{
+    left: 10vw;
+  }
+  #cloud1{
+    left: 10vw;
+  }
+
+  #cloud2{
+    left: 25vw;
+  }
+
+  #cloud3{
+    top: 69vw;
+    left: 32vw;
+  } 
+  .cloud--big{
+    width: 8vw;
+    top: 53vw;
+    left: 55vw;
+  }
+  
+  .cloud--medium1{
+    width: 5vw;
+    top: 54.5vw;
+    left: 26.6vw;
+  }
+  
+  .cloud--medium2{
+    width: 5vw;
+    left: 71vw;
+    top: 50vw;
+  }
+
+#patch__text3{
+  top: 110vw;
+  left: 36vw;
+}
+
+#patch__text4{
+  top: 87vw;
+  right: 4vw;
+}
+  .text__74{
+    left: 5vw;
+  }
+}
